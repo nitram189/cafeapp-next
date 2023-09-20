@@ -1,3 +1,5 @@
+'use client';
+
 import Product from "@/components/Product";
 import { useCafe } from "@/hooks/useCafe";
 import Layout from "@/layout/Layout";

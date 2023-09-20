@@ -1,9 +1,11 @@
+'use client';
+
 import { moneyFormat } from "@/helpers";
 import { useCafe } from "@/hooks/useCafe";
 import Layout from "@/layout/Layout";
 import { useEffect, useState } from "react";
 
-export default function index() {
+export default function total() {
 
   const { order, total, handleTotal, userName, handleUserName, postOrder } = useCafe();
 

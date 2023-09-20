@@ -1,9 +1,11 @@
+'use client';
+
 import SummaryList from "@/components/SummaryList";
 import { useCafe } from "@/hooks/useCafe";
 import Layout from "@/layout/Layout";
 
 
-export default function index() {
+export default function summary() {
 
   const { order } = useCafe();
 
