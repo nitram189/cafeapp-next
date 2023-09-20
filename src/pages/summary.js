@@ -1,4 +1,3 @@
-'use client';
 
 import SummaryList from "@/components/SummaryList";
 import { useCafe } from "@/hooks/useCafe";

@@ -1,4 +1,4 @@
-'use client';
+
 
 import { moneyFormat } from "@/helpers";
 import { useCafe } from "@/hooks/useCafe";
