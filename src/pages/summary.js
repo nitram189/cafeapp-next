@@ -5,7 +5,7 @@ import { useCafe } from "@/hooks/useCafe";
 import Layout from "@/layout/Layout";
 
 
-export default function summary() {
+export default function Summary() {
 
   const { order } = useCafe();
 

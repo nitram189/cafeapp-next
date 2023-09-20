@@ -4,7 +4,7 @@ import Product from "@/components/Product";
 import { useCafe } from "@/hooks/useCafe";
 import Layout from "@/layout/Layout";
 
-export default function index() {
+export default function Index() {
 
   const { currentCategory } = useCafe();
 
